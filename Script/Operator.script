@@ -1,0 +1,6 @@
+<#list 1..90 as testNumber>
+    test 1 ${testNumber} > $
+</#list>
+<#list 91..100 as testNumber>
+    test 2 ${testNumber} > $
+</#list>

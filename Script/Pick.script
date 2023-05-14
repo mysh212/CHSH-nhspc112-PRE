@@ -1,0 +1,15 @@
+<#list 1..10 as testNumber>
+    test 10 0 10 1000000000 ${testNumber} > $
+</#list>
+<#list 11..20 as testNumber>
+    test 100000 0 10 1000000000 ${testNumber} > $
+</#list>
+<#list 21..50 as testNumber>
+    test 100000 1 100000 1000 ${testNumber} > $
+</#list>
+<#list 51..70 as testNumber>
+    test 100000 1 100000 1000000000 ${testNumber} > $
+</#list>
+<#list 71..100 as testNumber>
+    test 100000 0 100000 1000000000 ${testNumber} > $
+</#list>

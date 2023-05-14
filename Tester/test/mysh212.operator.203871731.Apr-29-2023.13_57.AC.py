@@ -1,0 +1,1 @@
+print(['False','True'][[int(i) for i in input().split()][0] & 1])

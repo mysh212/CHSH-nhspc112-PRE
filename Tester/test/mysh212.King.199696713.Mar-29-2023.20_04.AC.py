@@ -1,0 +1,1 @@
+print(max([sum([int(j) for j in i]) for i in input().split()]))
