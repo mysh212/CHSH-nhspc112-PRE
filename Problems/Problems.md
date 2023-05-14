@@ -28,6 +28,14 @@
  - 使用者允許許使用 ***C/C++11/C++17*** 提交程式碼。
  - 若結果為***Execution timed out (wall clock limit exceeded)***，則表示系統因為某筆提交繁忙中，請檢查你的程式碼使否有可能超過執行時間，並稍後再試。
 
+### **資源**
+
+ - 賽後我們將會在一天內**彰中資訊社群**公告本次題解、總成績。
+
+ - 網址：
+   - [彰中資訊社群](https://www.facebook.com/groups/chshcs/)
+   - [本次專案](https://mysh212.github.io/CHSH-nhspc112-PRE/)
+
 <div style="page-break-after: always"></div>
 
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
