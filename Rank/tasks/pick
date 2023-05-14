@@ -1,0 +1,1 @@
+{"name": "Pick", "short_name": "pick", "contest": "T", "max_score": 100.0, "extra_headers": ["Subtask 1 (10)", "Subtask 2 (10)", "Subtask 3 (30)", "Subtask 4 (50)"], "order": 11, "score_mode": "max_subtask", "score_precision": 0}
