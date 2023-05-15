@@ -1,4 +1,7 @@
 ## **E.運算子** ***<font color='#AAAAAA'>Operator</font>***
+`time limit` 1s
+
+`memory limit` 256MB
 
 ### ***Problem***
 
@@ -6,7 +9,7 @@
 
 > 給你 $3$ 個 $True$ 、 $5$ 個 $False$ ，請問他們 $\oplus$ 出來的結果為何?
 
-***ysh***馬上就答出答案是 $False$ 。
+***ysh***馬上就答出答案是 $True$ 。
 
 於是***Cyana***教授決定出個世紀大難題：
 
@@ -49,29 +52,33 @@ $0 \leq a,b \leq 10^{18}$
 
 定義當 $a = b = 0$ 時， $Ans$ 為 $False$ 。
 
-### ***Sample Input***
+### ***Sample Input 1***
 
 ```
-5 4
-5 3 2 6 7
-1
-5
-11
-25
+0 0
 ```
 
-### ***Sample Output***
+### ***Sample Output 1***
 
 ```
-0
-2
-3
-5
+False
+```
+
+### ***Sample Input 2***
+
+```
+12345678987654321 98765432123456789
+```
+
+### ***Sample Output 2***
+
+```
+True
 ```
 
 ### ***Subtask***
 
- - ***subtask1***: $90\\%$ $0 \leq a,b \leq 10 ^ 5$
- - ***subtask2***: $10\\%$ ***As statement***
+ - ***subtask1***: $40\\%$ $0 \leq a,b \leq 10 ^ 5$
+ - ***subtask2***: $60\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>

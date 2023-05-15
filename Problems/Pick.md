@@ -1,4 +1,7 @@
 ## **D.選糖果** ***<font color='#AAAAAA'>Pick</font>***
+`time limit` 2s
+
+`memory limit` 256MB
 
 ### ***Problem***
 

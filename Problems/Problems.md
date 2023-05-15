@@ -39,9 +39,9 @@
 <div style="page-break-after: always"></div>
 
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
-`time limit` 1s
+`time limit` 2s
 
-`memory limit` 512MB
+`memory limit` 1024MB
 
 ### ***Problem***
 $\space \space$ 在一個遙遠的星球上，有一群居住在山洞中的原始部落。他們每年都會舉行一場盛大的祭典，當中最重要的儀式就是以族人作為祭品獻給神明，而神明的飽足感為作為祭品的**族人的體重**。而且體重是可疊加的，換句話說，如果以兩個人以上為祭品，神明的滿意度則為**體重和**。\
@@ -111,7 +111,7 @@ $Ans$
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 `time limit` 1s
 
-`memory limit` 512MB
+`memory limit` 1024MB
 
 ### ***Problem***
 $\space \space$ 你知道用法文數數是一件困難的事嗎？
@@ -171,7 +171,7 @@ quatre-vingt-dix-sept
 ## **C.村長** <font color = 'gray'>***King***</font>
 `time limit` 1s
 
-`memory limit` 512MB
+`memory limit` 256MB
 
 ### ***Problem***
 $\space \space$ 在一個小鎮的年度盛事中，有兩位參賽者正在進行一場激烈的競爭。他們正在進行一項數字遊戲，其中他們需要計算出兩個整數 $X$ 和 $Y$ 的**各位數字之和**。這個問題看似簡單，但對於這兩位參賽者來說卻是一個極大的挑戰。這時候極度聰明的你跳了出來，快速的講出了 $X, \space Y$ 兩者各位數字和中的**最大值**，震驚整個小鎮，從此當上了村長，過上了幸福快樂的生活。
@@ -211,6 +211,9 @@ $Ans$
 <div style="page-break-after: always"></div>
 
 ## **D.選糖果** ***<font color='#AAAAAA'>Pick</font>***
+`time limit` 2s
+
+`memory limit` 256MB
 
 ### ***Problem***
 
@@ -277,6 +280,9 @@ $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 <div style="page-break-after: always"></div>
 
 ## **E.運算子** ***<font color='#AAAAAA'>Operator</font>***
+`time limit` 1s
+
+`memory limit` 256MB
 
 ### ***Problem***
 
@@ -284,7 +290,7 @@ $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 
 > 給你 $3$ 個 $True$ 、 $5$ 個 $False$ ，請問他們 $\oplus$ 出來的結果為何?
 
-***ysh***馬上就答出答案是 $False$ 。
+***ysh***馬上就答出答案是 $True$ 。
 
 於是***Cyana***教授決定出個世紀大難題：
 
@@ -327,37 +333,41 @@ $0 \leq a,b \leq 10^{18}$
 
 定義當 $a = b = 0$ 時， $Ans$ 為 $False$ 。
 
-### ***Sample Input***
+### ***Sample Input 1***
 
 ```
-5 4
-5 3 2 6 7
-1
-5
-11
-25
+0 0
 ```
 
-### ***Sample Output***
+### ***Sample Output 1***
 
 ```
-0
-2
-3
-5
+False
+```
+
+### ***Sample Input 2***
+
+```
+12345678987654321 98765432123456789
+```
+
+### ***Sample Output 2***
+
+```
+True
 ```
 
 ### ***Subtask***
 
- - ***subtask1***: $90\\%$ $0 \leq a,b \leq 10 ^ 5$
- - ***subtask2***: $10\\%$ ***As statement***
+ - ***subtask1***: $40\\%$ $0 \leq a,b \leq 10 ^ 5$
+ - ***subtask2***: $60\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>
 
 ## **F.循環小數** <font color = 'gray'>***Repeating Decimal***</font>
-`time limit` 1s
+`time limit` 2s
 
-`memory limit` 512MB
+`memory limit` 1024MB
 
 ### ***Problem***
 $\space \space$ 循環⼩數，是從⼩數部分的某⼀位起，⼀個數字或幾個數字，依次不斷重複出現的⼩數。⽽在本題中，⼀個循環⼩數的最短循環節⻑度，就是不斷重複出現的數字數量的最⼩值，如 $\frac{1}{7}=0.\overline{142857}$ 的最短循環節⻑度就是 6。⽐如請撰寫⼀個程式，計算⼀個分數的最短循環節⻑度。

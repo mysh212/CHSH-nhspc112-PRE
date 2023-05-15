@@ -1,7 +1,7 @@
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 `time limit` 1s
 
-`memory limit` 512MB
+`memory limit` 1024MB
 
 ### ***Problem***
 $\space \space$ 你知道用法文數數是一件困難的事嗎？

@@ -1,7 +1,7 @@
 ## **F.循環小數** <font color = 'gray'>***Repeating Decimal***</font>
-`time limit` 1s
+`time limit` 2s
 
-`memory limit` 512MB
+`memory limit` 1024MB
 
 ### ***Problem***
 $\space \space$ 循環⼩數，是從⼩數部分的某⼀位起，⼀個數字或幾個數字，依次不斷重複出現的⼩數。⽽在本題中，⼀個循環⼩數的最短循環節⻑度，就是不斷重複出現的數字數量的最⼩值，如 $\frac{1}{7}=0.\overline{142857}$ 的最短循環節⻑度就是 6。⽐如請撰寫⼀個程式，計算⼀個分數的最短循環節⻑度。

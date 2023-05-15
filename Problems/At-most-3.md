@@ -1,7 +1,7 @@
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
-`time limit` 1s
+`time limit` 2s
 
-`memory limit` 512MB
+`memory limit` 1024MB
 
 ### ***Problem***
 $\space \space$ 在一個遙遠的星球上，有一群居住在山洞中的原始部落。他們每年都會舉行一場盛大的祭典，當中最重要的儀式就是以族人作為祭品獻給神明，而神明的飽足感為作為祭品的**族人的體重**。而且體重是可疊加的，換句話說，如果以兩個人以上為祭品，神明的滿意度則為**體重和**。\
