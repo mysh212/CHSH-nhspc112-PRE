@@ -2,6 +2,7 @@
 
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
 
+> 出題者 Derek0
 ### ***Subtask***
  #### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
  顯然迴圈
@@ -12,6 +13,7 @@
 
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 
+> 出題者 Derek0
  #### ***task***: $100\\%$ ***As statement***
  直接照題意模擬
 
@@ -19,6 +21,7 @@
 
 ## **C.村長** <font color = 'gray'>***King***</font>
 
+> 出題者 Derek0
 ### ***Subtask***
  - ***subtask1***: $20\\%$: $1 \leq X, Y \leq 10^9$
  - ***subtask2***: $30\\%$: $1 \leq X, Y \leq 10^{18}$
@@ -28,6 +31,7 @@
 
 ## **D.選糖果** ***<font color='#AAAAAA'>Pick</font>***
 
+> 出題者 ysh
 ### ***Subtask***
 
  - ***subtask1***: $10\\%$ $1 \leq n,m \leq 10$
@@ -39,6 +43,7 @@
 
 ## **E.運算子** ***<font color='#AAAAAA'>Operator</font>***
 
+> 出題者 ysh
 ### ***Subtask***
 
  - ***subtask1***: $40\\%$ $0 \leq a,b \leq 10 ^ 5$
@@ -48,6 +53,7 @@
 
 ## **F.循環小數** <font color = 'gray'>***Repeating Decimal***</font>
 
+> 出題者 gamic1234
 ### ***Subtask***
 
 #### ***subtask1***: $30\\%$ $1 \leq p \leq q < 10$
