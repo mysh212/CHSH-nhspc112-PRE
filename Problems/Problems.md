@@ -41,7 +41,7 @@
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
 `time limit` 2s
 
-`memory limit` 1024MB
+`memory limit` 256MB
 
 ### ***Problem***
 $\space \space$ 在一個遙遠的星球上，有一群居住在山洞中的原始部落。他們每年都會舉行一場盛大的祭典，當中最重要的儀式就是以族人作為祭品獻給神明，而神明的飽足感為作為祭品的**族人的體重**。而且體重是可疊加的，換句話說，如果以兩個人以上為祭品，神明的滿意度則為**體重和**。\
@@ -111,7 +111,7 @@ $Ans$
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 `time limit` 1s
 
-`memory limit` 1024MB
+`memory limit` 256MB
 
 ### ***Problem***
 $\space \space$ 你知道用法文數數是一件困難的事嗎？
@@ -367,7 +367,7 @@ True
 ## **F.循環小數** <font color = 'gray'>***Repeating Decimal***</font>
 `time limit` 2s
 
-`memory limit` 1024MB
+`memory limit` 256MB
 
 ### ***Problem***
 $\space \space$ 循環⼩數，是從⼩數部分的某⼀位起，⼀個數字或幾個數字，依次不斷重複出現的⼩數。⽽在本題中，⼀個循環⼩數的最短循環節⻑度，就是不斷重複出現的數字數量的最⼩值，如 $\frac{1}{7}=0.\overline{142857}$ 的最短循環節⻑度就是 6。⽐如請撰寫⼀個程式，計算⼀個分數的最短循環節⻑度。
