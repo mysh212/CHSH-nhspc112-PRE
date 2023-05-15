@@ -9,8 +9,8 @@ $\space \space$ 到了儀式開始的時間了，現在有 $N$ 個人，第 $i$ 
 
 ### ***Input***
 
-$N, \space W$ \
-$w_1, w_2, ..., w_n$
+$N \space W$ \
+$w_1\ w_2\ ...\ w_n$
 
 ### ***Output***
 
@@ -24,18 +24,17 @@ $Ans$
 - $1 \leq W \leq 10^{12}$
 - $1 \leq A_i \leq 10^{12}$
 
-### ***Sample input 1***
+### ***Sample Input 1***
 
 ```
 2 10
 1 3
 ```
 
-### ***Sample output 1***
+### ***Sample Output 1***
 
 ```
-2 1
-2 3
+3
 ```
 
 ### ***Sample Input 2***
