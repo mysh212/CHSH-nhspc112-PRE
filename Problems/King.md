@@ -20,13 +20,13 @@ $Ans$
 
 - $1 \leq X, Y \leq 10^{100}$
 
-### ***Sample input***
+### ***Sample Input***
 
 ```
 1392 12
 ```
 
-### ***Sample output***
+### ***Sample Output***
 
 ```
 15
