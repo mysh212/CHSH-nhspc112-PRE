@@ -3,14 +3,17 @@
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
 
 ### ***Subtask***
- - ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
- - ***subtask2***: $65\\%$ ***As statement***
+ #### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
+ 顯然迴圈
+ #### ***subtask2***: $65\\%$ ***As statement***
+ 記得開long long❤️
 
 <div style="page-break-after: always"></div>
 
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 
- - ***task***: $100\\%$ ***As statement***
+ #### ***task***: $100\\%$ ***As statement***
+ 直接照題意模擬
 
 <div style="page-break-after: always"></div>
 
@@ -47,7 +50,8 @@
 
 ### ***Subtask***
 
-- ***subtask1***: $30\\%$ $1 \leq p \leq q < 10$
+#### ***subtask1***: $30\\%$ $1 \leq p \leq q < 10$
+顯然可以直接模擬
 - ***subtask2***: $70\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>
