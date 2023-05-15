@@ -6,7 +6,7 @@
  #### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
  顯然迴圈
  #### ***subtask2***: $65\\%$ ***As statement***
- 記得開long long❤️
+ 記得開long long
 
 <div style="page-break-after: always"></div>
 
