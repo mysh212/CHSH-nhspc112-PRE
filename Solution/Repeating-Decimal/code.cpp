@@ -7,10 +7,10 @@ using namespace std;
 void solve(){
     int p, q, len = 0;
     cin >> p >> q;
-    vector<bool> v(q, 0);
+    vector<int> v(q, -1);
     p = p % q;
-    while(!v[p]){
-        v[p] = true;
+    while(v[p] == -1){
+        v[p] = len;
         p *= 10;
         while(p < q){
             p *= 10;
@@ -19,10 +19,10 @@ void solve(){
         len += (int)log10(p / q) + 1;
         p %= q;
     }
-    cout << len << endl;
+    cout << len - v[p] << endl;
 }
 
-signed main(){
+signed main(){OuO
     int tt;
     cin >> tt;
     while(tt--) solve();
