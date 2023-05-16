@@ -5,22 +5,21 @@
 using namespace std;
 
 void solve(){
-    int p, q;
+    int p, q, len = 0;
     cin >> p >> q;
-    unordered_set<int> se;
+    vector<bool> v(q, 0);
     p = p % q;
-    string s;
-    while(!se.count(p)){
-        se.insert(p);
+    while(!v[p]){
+        v[p] = true;
         p *= 10;
         while(p < q){
             p *= 10;
-            s += '0';
+            ++len;
         }
-        s += to_string(p / q);
+        len += (int)log10(p / q) + 1;
         p %= q;
     }
-    cout << s.size() << endl;
+    cout << len << endl;
 }
 
 signed main(){
