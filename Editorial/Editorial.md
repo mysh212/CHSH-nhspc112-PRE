@@ -57,8 +57,10 @@
 ### ***Subtask***
 
 #### ***subtask1***: $30\\%$ $1 \leq p \leq q < 10$
-顯然可以直接模擬
-- ***subtask2***: $70\\%$ ***As statement***
+模擬除法過程，記錄每次除法除下來的餘數，若有重複則代表到到了循環結尾，結束模擬
+記錄哪些餘數有出現過可以用set或map儲存
+#### ***subtask2***: $70\\%$ ***As statement***
+觀察到餘數的值域不會超過除數的範圍也就是n($10^{6}$)可以用陣列紀錄
 
 <div style="page-break-after: always"></div>
 
