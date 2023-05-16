@@ -3,27 +3,26 @@
 #define OuO ios::sync_with_stdio(0);cin.tie(0);
 #define ll long long
 using namespace std;
-
+ 
 void solve(){
-    int p, q;
+    int p, q, len = 0;
     cin >> p >> q;
     set<int> se;
     p = p % q;
-    string s;
     while(!se.count(p)){
         se.insert(p);
         p *= 10;
         while(p < q){
             p *= 10;
-            s += '0';
+            ++len;
         }
-        s += to_string(p / q);
+        len += (int)log10(p / q) + 1;
         p %= q;
     }
-    cout << s.size() << endl;
+    cout << len << endl;
 }
-
-signed main(){
+ 
+signed main(){OuO
     int tt;
     cin >> tt;
     while(tt--) solve();
