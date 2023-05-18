@@ -1,4 +1,4 @@
-## **E.運算子** ***<font color='#AAAAAA'>Operator</font>***
+## **G.運算子** ***<font color='#AAAAAA'>Operator</font>***
 `time limit` 1s
 
 `memory limit` 256MB
