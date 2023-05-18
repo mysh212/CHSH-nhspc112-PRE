@@ -47,8 +47,8 @@ $Ans$
 
 ### ***Subtask***
 
- - ***subtask1***: $10\%$ $1 \leq n,m \leq 10$
- - ***subtask2***: $30\%$ $1 \leq n,m \leq 100$
- - ***subtask3***: $60\%$ ***As statement***
+ - ***subtask1***: $10\\%$ $1 \leq n,m \leq 10$
+ - ***subtask2***: $30\\%$ $1 \leq n,m \leq 100$
+ - ***subtask3***: $60\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>

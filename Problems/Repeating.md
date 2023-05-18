@@ -16,7 +16,7 @@ $T$\
 $p_1 \space q_1$\
 $p_2 \space q_2$\
 $...$\
-$p_T \space q_T$\
+$p_T \space q_T$
 
 ### ***Output***
 
@@ -28,7 +28,8 @@ $Ans_T$
 ### ***Note***
 
 - $T \leq 25$
-- $1 \leq p \leq q \leq 10^6$
+- $1 \leq p \leq 10^6$
+- $1 \leq q \leq 10^6$
 - $循環長度保證不超過10^6$
 - $保證輸⼊沒有有限⼩數$
 

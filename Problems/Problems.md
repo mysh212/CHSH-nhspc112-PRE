@@ -363,7 +363,8 @@ $Ans_T$
 ### ***Note***
 
 - $T \leq 25$
-- $1 \leq p \leq q \leq 10^6$
+- $1 \leq p \leq 10^6$
+- $1 \leq q \leq 10^6$
 - $循環長度保證不超過10^6$
 - $保證輸⼊沒有有限⼩數$
 
@@ -390,4 +391,3 @@ $Ans_T$
 - ***subtask2***: $70\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>
-
