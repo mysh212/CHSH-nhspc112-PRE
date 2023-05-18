@@ -41,13 +41,55 @@
 
 <div style="page-break-after: always"></div>
 
-## **E.運算子** ***<font color='#AAAAAA'>Operator</font>***
+## **E.更多的糖果** ***<font color='#AAAAAA'>Pick-II</font>***
+### ***subtask1***: $10\%$ $1 \leq n,m \leq 10$
+唬爛用，甚至 $O(n^5)$ 都會過。
 
-> 出題者 ysh
-### ***Subtask***
+### ***subtask2***: $30\%$ $1 \leq n,m \leq 100$
+這就需要使用**前綴和**了
 
- - ***subtask1***: $40\\%$ $0 \leq a,b \leq 10 ^ 5$
- - ***subtask2***: $60\\%$ ***As statement***
+假設今天給你一個平面 <$a$> :
+```
+1 1 1
+1 1 1
+1 1 1
+```
+如果享用暴力取總和的話，複雜度會是 $O(n^2)$ ，但是如果我們先造出另外一個序列 <$g$> 的話...
+
+$$
+\displaystyle \text{Define } g_{ij} = \sum_{k = 1}^i\sum_{l = 1}^j a_{kl}
+$$
+
+我們可以發現 <$g$> 為:
+
+```
+1 2 3
+2 4 6
+3 6 9
+```
+
+那要如何利用 <$g$> 取得 $\displaystyle \sum_{k = x_0}^{x}\sum_{l = y_0}^y a_{kl}$ 呢?
+
+答案就是...
+
+$$
+\displaystyle \sum_{k = x_0}^{x}\sum_{l = y_0}^y a_{kl} = g_{xy} - g_{x_0y} - g_{xy_0} + g_{x_0y_0}
+$$
+
+看出來了嗎
+其實就是~~用湊的~~
+
+因此，我們只需要花**一次** $O(n^2)$ 的時間建表，即可用坐享 $O(1)$ 的查詢速度。
+對於這題來說，只要從小到大依次列舉 $r$ ，每次再用$O(nm)$ 來窮舉右下角的座標，最後用 $O(1)$ 的時間算出矩陣和即可通過此題。
+總時間複雜度 $O(nm \cdot min(m,n))$ 。
+
+### ***subtask3***: $60\%$ ***As statement***
+
+其實原本試想卡暴力解才出這個子測資，但後來想想算了。
+
+不過這題其實存在二分搜解法，因為答案具有單調性。所以我們可以對答案進行二分搜。
+
+這可以讓時間複雜度降至 $O(nm \cdot \log_2^{min(m,n)})$ 。
 
 <div style="page-break-after: always"></div>
 
@@ -63,3 +105,12 @@
 
 <div style="page-break-after: always"></div>
 
+## **G.運算子** ***<font color='#AAAAAA'>Operator</font>***
+
+> 出題者 ysh
+### ***Subtask***
+
+ - ***subtask1***: $40\\%$ $0 \leq a,b \leq 10 ^ 5$
+ - ***subtask2***: $60\\%$ ***As statement***
+
+<div style="page-break-after: always"></div>
