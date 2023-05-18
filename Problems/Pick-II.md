@@ -15,9 +15,9 @@
 
 ### ***Input***
 
-$n\ m\ k$
-$a_{(1,1)}\ a_{(1,2)}\ ...\ a_{(1,m)}$
-...
+$n\ m\ k$\
+$a_{(1,1)}\ a_{(1,2)}\ ...\ a_{(1,m)}$\
+...\
 $a_{(n,1)}\ a_{(n,2)}\ ...\ a_{(n,m)}$
 
 ### ***Output***
@@ -26,9 +26,9 @@ $Ans$
 
 ### ***Note***
 
-$1 \leq n,m \leq 500$
-$0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
-$\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
+ - $1 \leq n,m \leq 500$
+ - $0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
+ - $\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
 
 ### ***Sample Input***
 

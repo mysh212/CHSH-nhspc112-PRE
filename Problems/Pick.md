@@ -14,19 +14,19 @@
 
 ### ***Input***
 
-$n\ m$
-$a_1\ a_2\ ...\ a_n$
-$k_1$
-$k_2$
-$...$
+$n\ m$\
+$a_1\ a_2\ ...\ a_n$\
+$k_1$\
+$k_2$\
+$...$\
 $k_m$
 其中共有 $m$ 組詢問。
 
 ### ***Output***
 
-$Ans_1$
-$Ans_2$
-...
+$Ans_1$\
+$Ans_2$\
+...\
 $Ans_m$
 
 對於每一筆詢問，請輸出當背包容量為 $k_i,1 \leq i \leq m$ 時，***amberela***能夠吃到的最大糖果**種類**數量。
@@ -34,9 +34,9 @@ $Ans_m$
 
 ### ***Note***
 
-$1 \leq n,m \leq 10^5$
-$1 \leq a_i \leq 10^9,\forall\ 1 \leq i \leq n$
-$0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
+ - $1 \leq n,m \leq 10^5$
+ - $1 \leq a_i \leq 10^9,\forall\ 1 \leq i \leq n$
+ - $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 
 ### ***Sample Input***
 

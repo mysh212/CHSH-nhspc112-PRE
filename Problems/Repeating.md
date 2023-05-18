@@ -12,18 +12,18 @@ $\space \space$ 對每⼀個測試資料，輸出⼀個數字，代表 $\frac{p}
 
 ### ***Input***
 
-$T$
-$p_1 \space q_1$
-$p_2 \space q_2$
-$...$
-$p_T \space q_T$
+$T$\
+$p_1 \space q_1$\
+$p_2 \space q_2$\
+$...$\
+$p_T \space q_T$\
 
 ### ***Output***
 
-$ans_1$
-$ans_2$
-$...$
-$ans_T$
+$Ans_1$\
+$Ans_2$\
+$...$\
+$Ans_T$
 
 ### ***Note***
 
