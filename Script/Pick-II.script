@@ -1,0 +1,21 @@
+<#list 1..10 as testNumber>
+    test 10 10 0 ${testNumber} > $
+</#list>
+<#list 11..20 as testNumber>
+    test 100 100 0 ${testNumber} > $
+</#list>
+<#list 21..40 as testNumber>
+    test 500 500 0 ${testNumber} > $
+</#list>
+<#list 41..50 as testNumber>
+    test 500 500 1 ${testNumber} > $
+</#list>
+<#list 51..60 as testNumber>
+    test 500 500 2 ${testNumber} > $
+</#list>
+<#list 61..70 as testNumber>
+    test 500 500 3 ${testNumber} > $
+</#list>
+<#list 71..80 as testNumber>
+    test 500 500 4 ${testNumber} > $
+</#list>
