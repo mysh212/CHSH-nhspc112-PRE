@@ -225,19 +225,19 @@ $Ans$
 
 ### ***Input***
 
-$n\ m$
-$a_1\ a_2\ ...\ a_n$
-$k_1$
-$k_2$
-$...$
-$k_m$
+$n\ m$\
+$a_1\ a_2\ ...\ a_n$\
+$k_1$\
+$k_2$\
+$...$\
+$k_m$\
 其中共有 $m$ 組詢問。
 
 ### ***Output***
 
-$Ans_1$
-$Ans_2$
-...
+$Ans_1$\
+$Ans_2$\
+...\
 $Ans_m$
 
 對於每一筆詢問，請輸出當背包容量為 $k_i,1 \leq i \leq m$ 時，***amberela***能夠吃到的最大糖果**種類**數量。
@@ -245,9 +245,9 @@ $Ans_m$
 
 ### ***Note***
 
-$1 \leq n,m \leq 10^5$
-$1 \leq a_i \leq 10^9,\forall\ 1 \leq i \leq n$
-$0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
+ - $1 \leq n,m \leq 10^5$
+ - $1 \leq a_i \leq 10^9,\forall\ 1 \leq i \leq n$
+ - $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 
 ### ***Sample Input***
 
@@ -295,9 +295,9 @@ $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 
 ### ***Input***
 
-$n\ m\ k$
-$a_{(1,1)}\ a_{(1,2)}\ ...\ a_{(1,m)}$
-...
+$n\ m\ k$\
+$a_{(1,1)}\ a_{(1,2)}\ ...\ a_{(1,m)}$\
+...\
 $a_{(n,1)}\ a_{(n,2)}\ ...\ a_{(n,m)}$
 
 ### ***Output***
@@ -306,9 +306,9 @@ $Ans$
 
 ### ***Note***
 
-$1 \leq n,m \leq 500$
-$0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
-$\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
+ - $1 \leq n,m \leq 500$
+ - $0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
+ - $\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
 
 ### ***Sample Input***
 
@@ -347,18 +347,18 @@ $\space \space$ 對每⼀個測試資料，輸出⼀個數字，代表 $\frac{p}
 
 ### ***Input***
 
-$T$
-$p_1 \space q_1$
-$p_2 \space q_2$
-$...$
+$T$\
+$p_1 \space q_1$\
+$p_2 \space q_2$\
+$...$\
 $p_T \space q_T$
 
 ### ***Output***
 
-$ans_1$
-$ans_2$
-$...$
-$ans_T$
+$Ans_1$\
+$Ans_2$\
+$...$\
+$Ans_T$
 
 ### ***Note***
 
