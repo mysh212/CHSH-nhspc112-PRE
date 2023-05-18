@@ -1,2 +1,10 @@
 # CHSH-nhspc112-PRE 
  - [Rank](https://mysh212.github.io/CHSH-nhspc112-PRE/Rank/ranking.html)
+ - [Solution](https://mysh212.github.io/CHSH-nhspc112-PRE/Solution)
+ - [Tester](https://mysh212.github.io/CHSH-nhspc112-PRE/Tester)
+ - [Generator](https://github.com/mysh212/CHSH-nhspc112-PRE/Generator)
+ - [Validator](https://github.com/mysh212/CHSH-nhspc112-PRE/Validator)
+ - [賽前測試](https://mysh212.github.io/CHSH-nhspc112-PRE/Rank/ranking.html)
+ - [Script](https://github.com/mysh212/CHSH-nhspc112-PRE/Script)
+ - [Problems](https://github.com/mysh212/CHSH-nhspc112-PRE/Problems)
+ - [測資](https://github.com/mysh212/CHSH-nhspc112-PRE/Testcase)
