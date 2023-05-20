@@ -3,19 +3,18 @@
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
 
 > 出題者 Derek0
-### ***Subtask***
- #### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
- 顯然迴圈
- #### ***subtask2***: $65\\%$ ***As statement***
- 記得開long long❤️
+### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
+顯然迴圈
+### ***subtask2***: $65\\%$ ***As statement***
+記得開long long❤️
 
 <div style="page-break-after: always"></div>
 
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 
 > 出題者 Derek0
- #### ***task***: $100\\%$ ***As statement***
- 直接照題意模擬
+### ***task***: $100\\%$ ***As statement***
+直接照題意模擬
 
 <div style="page-break-after: always"></div>
 
@@ -117,11 +116,9 @@ $$
 ## **F.循環小數** <font color = 'gray'>***Repeating Decimal***</font>
 
 > 出題者 gamic1234
-### ***Subtask***
-
-#### ***subtask1***: $30\\%$ $1 \leq q < 10, 且循環長度保證不超過10^5$
+### ***subtask1***: $30\\%$ $1 \leq q < 10, 且循環長度保證不超過10^5$
 觀察到只要除數固定，循環長度就會是一個定值，於是事先算好答案直接回答
-#### ***subtask2***: $70\\%$ ***As statement***
+### ***subtask2***: $70\\%$ ***As statement***
 直接模擬除法，用一個陣列紀錄哪些被除後的餘數有出現過且出現在哪裡，遇到有出現過的結束模擬，算出循環長度。\
 順帶一提，用map記錄會多一個log導致TLE
 

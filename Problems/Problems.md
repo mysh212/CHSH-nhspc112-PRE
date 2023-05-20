@@ -387,7 +387,7 @@ $Ans_T$
 
 ### ***Subtask***
 
-- ***subtask1***: $30\\%$ $1 \leq p \leq q < 10$
+- ***subtask1***: $30\\%$ $1 \leq q < 10, 且循環長度保證不超過10^5$
 - ***subtask2***: $70\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>
