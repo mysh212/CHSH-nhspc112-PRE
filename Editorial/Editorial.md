@@ -24,10 +24,15 @@
 ### ***Subtask***
 
  ***subtask1***: $20\\%$: $1 \leq X, Y \leq 10^9$
+ 
  使用迴圈枚舉每一位的數字
+ 
  ***subtask2***: $30\\%$: $1 \leq X, Y \leq 10^{18}$
+ 
  開long long
+ 
  ***subtask3***: $50\\%$: ***As statement***
+ 
  使用std::string輸入即可 
 
 <div style="page-break-after: always"></div>
