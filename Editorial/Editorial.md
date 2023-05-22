@@ -4,9 +4,9 @@
 
 > 出題者 Derek0
 ### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
-顯然迴圈
+三個迴圈搭配std::set即可
 ### ***subtask2***: $65\\%$ ***As statement***
-記得開long long❤️
+記得開long long
 
 <div style="page-break-after: always"></div>
 
@@ -14,7 +14,7 @@
 
 > 出題者 Derek0
 ### ***task***: $100\\%$ ***As statement***
-直接照題意模擬
+依照題意模擬
 
 <div style="page-break-after: always"></div>
 
@@ -22,9 +22,9 @@
 
 > 出題者 Derek0
 ### ***Subtask***
- - ***subtask1***: $20\\%$: $1 \leq X, Y \leq 10^9$
- - ***subtask2***: $30\\%$: $1 \leq X, Y \leq 10^{18}$
- - ***subtask3***: $50\\%$: ***As statement***
+ ***subtask1***: $20\\%$: $1 \leq X, Y \leq 10^9$
+ ***subtask2***: $30\\%$: $1 \leq X, Y \leq 10^{18}$
+ ***subtask3***: $50\\%$: ***As statement***
 
 <div style="page-break-after: always"></div>
 
