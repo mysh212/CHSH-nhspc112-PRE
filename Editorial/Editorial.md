@@ -66,7 +66,7 @@
 
 我們使用**前綴和**和**二分搜**來優化。
 
-先對 $<a>$ 做前綴和，而後對於每一筆詢問，只需要花 $O(\log_2^n)$ 的時間即可完成查詢。
+先對 < $a$ > 做前綴和，而後對於每一筆詢問，只需要花 $O(\log_2^n)$ 的時間即可完成查詢。
 
 總時間複雜度 $O((n + m) \cdot \log_2^n)$ 。
 
@@ -109,7 +109,7 @@ $$
 \displaystyle \sum_{k = x_0}^{x}\sum_{l = y_0}^y a_{kl} = g_{xy} - g_{x_0y} - g_{xy_0} + g_{x_0y_0}
 $$
 
-看出來了嗎
+看出來了嗎\
 其實就是~~用湊的~~
 
 因此，我們只需要花**一次** $O(n^2)$ 的時間建表，即可用坐享 $O(1)$ 的查詢速度。\
@@ -170,16 +170,9 @@ $$
 $False^n = False \cdot False \cdot False^{n - 2} = False^{n - 1}$ ， $False^1 = False$ 。
 
 接著，我們有 $True^a = True, a \equiv 1\ (mod\ 2)$ ，因為：\
-$True^n\\
- = True \cdot True \cdot True^{n - 2}\\
- = False \cdot True^{n - 2}\\
- = False \cdot True \cdot True^{n - 3}\\
- = True \cdot True^{n - 3}\\
- = True^{n - 2}$\
-， $True^1 = True$ 。
+$True^n\\ = True \cdot True \cdot True^{n - 2}\\ = False \cdot True^{n - 2}\\ = False \cdot True \cdot True^{n - 3}\\ = True \cdot True^{n - 3}\\ = True^{n - 2}$ ， $True^1 = True$ 。
 
-因此， $True^a \cdot False^b = True^{a \\% 2} \cdot False = True^{a \\% 2}$ 。
-得證。
+因此， $True^a \cdot False^b = True^{a \\% 2} \cdot False = True^{a \\% 2}$ ，得證。\
 複雜度 $O(1)$ 。
 
 
