@@ -29,6 +29,8 @@ $S$
 
 - $1 \leq N \leq 69$
 
+<div style="page-break-after: always"></div>
+
 ### ***Sample Input 1***
 ```
 11

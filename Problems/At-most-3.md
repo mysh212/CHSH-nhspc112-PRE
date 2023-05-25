@@ -24,6 +24,8 @@ $Ans$
 - $1 \leq W \leq 10^{12}$
 - $1 \leq A_i \leq 10^{12}$
 
+<div style="page-break-after: always"></div>
+
 ### ***Sample Input 1***
 
 ```

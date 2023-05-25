@@ -33,6 +33,8 @@ $Ans_T$
 - $循環長度保證不超過10^6$
 - $保證輸⼊沒有有限⼩數$
 
+<div style="page-break-after: always"></div>
+
 ### ***Sample Input***
 
 ```

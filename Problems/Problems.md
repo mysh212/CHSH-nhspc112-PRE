@@ -35,7 +35,6 @@
 
  - 賽後我們將會在一天內**彰中資訊社群**公告本次題解、總成績。
  - 當天晚上10點將在彰中資訊社Discord直播***System test***過程。
-
  - 網址：
    - [彰中資訊社群](https://www.facebook.com/groups/chshcs/)
    - [本次專案](https://mysh212.github.io/CHSH-nhspc112-PRE/)
@@ -68,6 +67,8 @@ $Ans$
 - $1 \leq N \leq 100$
 - $1 \leq W \leq 10^{12}$
 - $1 \leq A_i \leq 10^{12}$
+
+<div style="page-break-after: always"></div>
 
 ### ***Sample Input 1***
 
@@ -142,6 +143,8 @@ $S$
 ### ***Note***
 
 - $1 \leq N \leq 69$
+
+<div style="page-break-after: always"></div>
 
 ### ***Sample Input 1***
 ```
@@ -250,6 +253,8 @@ $Ans_m$
  - $1 \leq a_i \leq 10^9,\forall\ 1 \leq i \leq n$
  - $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 
+<div style="page-break-after: always"></div>
+
 ### ***Sample Input***
 
 ```
@@ -280,7 +285,7 @@ $Ans_m$
 <div style="page-break-after: always"></div>
 
 ## **E.更多的糖果** ***<font color='#AAAAAA'>Pick-II</font>***
-`time limit` 1s
+`time limit` 2s
 
 `memory limit` 256MB
 
@@ -310,6 +315,8 @@ $Ans$
  - $1 \leq n,m \leq 2500$
  - $0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
  - $\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
+
+<div style="page-break-after: always"></div>
 
 ### ***Sample Input***
 
@@ -369,6 +376,8 @@ $Ans_T$
 - $1 \leq q \leq 10^6$
 - $循環長度保證不超過10^6$
 - $保證輸⼊沒有有限⼩數$
+
+<div style="page-break-after: always"></div>
 
 ### ***Sample Input***
 
@@ -441,6 +450,8 @@ $a$ $b$
 $Ans$
 
 $Ans \in \\{True,False\\}$
+
+<div style="page-break-after: always"></div>
 
 ### ***Note***
 

@@ -38,6 +38,8 @@ $Ans_m$
  - $1 \leq a_i \leq 10^9,\forall\ 1 \leq i \leq n$
  - $0 \leq k_i \leq 10^{18},\forall\ 1 \leq i \leq m$
 
+<div style="page-break-after: always"></div>
+
 ### ***Sample Input***
 
 ```
