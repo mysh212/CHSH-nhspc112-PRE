@@ -7,7 +7,7 @@
 
 ***amberela***又又來到了另一家糖果店，這次店裡的糖果排成了 $n \times m$ 的矩形，每種糖果都不一樣，重量也不盡相同。
 
-他為了方便記憶自己買了那些糖果，決定只挑一塊正方形 $r \times r$ 的區域，並將其中的糖果帶回家吃。
+他為了方便記憶自己買了那些糖果，決定只挑一塊正方形 $r \times r$ 的區域，並將其中的**所有**糖果帶回家吃。
 
 但難過的是他的背包最多依舊只能裝到重量 $k$ 。
 
@@ -26,7 +26,7 @@ $Ans$
 
 ### ***Note***
 
- - $1 \leq n,m \leq 500$
+ - $1 \leq n,m \leq 2500$
  - $0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
  - $\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
 
@@ -49,6 +49,7 @@ $Ans$
 
  - ***subtask1***: $10\\%$ $1 \leq n,m \leq 10$
  - ***subtask2***: $30\\%$ $1 \leq n,m \leq 100$
- - ***subtask3***: $60\\%$ ***As statement***
+ - ***subtask3***: $10\\%$ $1 \leq n,m \leq 500$
+ - ***subtask4***: $50\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>

@@ -39,6 +39,7 @@
  - 網址：
    - [彰中資訊社群](https://www.facebook.com/groups/chshcs/)
    - [本次專案](https://mysh212.github.io/CHSH-nhspc112-PRE/)
+   - [彰中資訊社Discord](https://2120.page.link/cdc)
 
 <div style="page-break-after: always"></div>
 
@@ -230,7 +231,7 @@ $a_1\ a_2\ ...\ a_n$\
 $k_1$\
 $k_2$\
 $...$\
-$k_m$\
+$k_m$
 其中共有 $m$ 組詢問。
 
 ### ***Output***
@@ -287,7 +288,7 @@ $Ans_m$
 
 ***amberela***又又來到了另一家糖果店，這次店裡的糖果排成了 $n \times m$ 的矩形，每種糖果都不一樣，重量也不盡相同。
 
-他為了方便記憶自己買了那些糖果，決定只挑一塊正方形 $r \times r$ 的區域，並將其中的糖果帶回家吃。
+他為了方便記憶自己買了那些糖果，決定只挑一塊正方形 $r \times r$ 的區域，並將其中的**所有**糖果帶回家吃。
 
 但難過的是他的背包最多依舊只能裝到重量 $k$ 。
 
@@ -306,7 +307,7 @@ $Ans$
 
 ### ***Note***
 
- - $1 \leq n,m \leq 500$
+ - $1 \leq n,m \leq 2500$
  - $0 \leq a_{ij} \leq 10^9,\forall 1 \leq i \leq n,1 \leq j \leq m$
  - $\displaystyle 1 \leq k \leq 2\sum_{i = 1}^n \sum_{j = 1}^m a_{ij}$
 
@@ -327,9 +328,10 @@ $Ans$
 
 ### ***Subtask***
 
- - ***subtask1***: $10\%$ $1 \leq n,m \leq 10$
- - ***subtask2***: $30\%$ $1 \leq n,m \leq 100$
- - ***subtask3***: $60\%$ ***As statement***
+ - ***subtask1***: $10\\%$ $1 \leq n,m \leq 10$
+ - ***subtask2***: $30\\%$ $1 \leq n,m \leq 100$
+ - ***subtask3***: $10\\%$ $1 \leq n,m \leq 500$
+ - ***subtask4***: $50\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>
 
@@ -389,5 +391,90 @@ $Ans_T$
 
 - ***subtask1***: $30\\%$ $1 \leq q < 10, 且循環長度保證不超過10^5$
 - ***subtask2***: $70\\%$ ***As statement***
+
+<div style="page-break-after: always"></div>
+
+## **G.運算子** ***<font color='#AAAAAA'>Operator</font>***
+`time limit` 1s
+
+`memory limit` 256MB
+
+### ***Problem***
+
+***amberela***最近在修***cyana***教授的課，某天教授提出了個問題：
+
+> 給你 $3$ 個 $True$ 、 $5$ 個 $False$ ，請問他們 $\oplus$ 出來的結果為何?
+
+***amberela***馬上就答出答案是 $True$ 。
+
+於是***Cyana***教授決定出個世紀大難題：
+
+> 給你 $12345678987654321$ 個 $True$ 、 $98765432123456789$ 個 $False$ ，請問他們 $\oplus$ 出來的結果為何?
+
+這個問題讓***ysh***十分苦惱，甚至到現在都還沒算完......。
+現在給你 $a$ 個 $True$ 、 $b$ 個 $False$ ，***ysh***想問你將他們 $\oplus$ 後的結果為何?
+
+注：
+$\oplus$ 為一種位元運算，我們稱之為***XOR***，其具有交換律。
+
+且
+$x\ \oplus\ y\ \oplus\ z\ =\ x\ \oplus\ (y\ \oplus\ z)$
+
+令 $x$ $\oplus$ $y$ $=$ $z$
+則
+
+
+| $x$ |  $y$ |  $z$ |
+|:-------------:|:-------------:|:-------------:|
+|   $True$   |   $True$   |   $False$   |
+|   $True$   |   $False$   |   $True$   |
+|   $False$   |   $True$   |   $True$   |
+|   $False$   |   $False$   |   $False$   |
+
+
+### ***Input***
+
+$a$ $b$
+
+### ***Output***
+
+$Ans$
+
+$Ans \in \\{True,False\\}$
+
+### ***Note***
+
+$0 \leq a,b \leq 10^{18}$
+
+定義當 $a = b = 0$ 時， $Ans$ 為 $False$ 。
+
+### ***Sample Input 1***
+
+```
+0 0
+```
+
+### ***Sample Output 1***
+
+```
+False
+```
+
+### ***Sample Input 2***
+
+```
+12345678987654321 98765432123456789
+```
+
+### ***Sample Output 2***
+
+```
+True
+```
+
+### ***Subtask***
+
+ - ***subtask1***: $40\\%$ $0 \leq a,b \leq 10 ^ 5$
+ - ***subtask2***: $60\\%$ ***As statement***
 
 <div style="page-break-after: always"></div>
