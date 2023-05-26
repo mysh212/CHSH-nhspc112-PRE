@@ -1,7 +1,7 @@
 # Author : ysh
 # 05/18/2023 Thu  9:45:23.66
 a,b,c = [int(i) for i in input().split()]
-assert(1 <= a <= 500 and 1 <= b <= 500)
+assert(1 <= a <= 2500 and 1 <= b <= 2500)
 sig = 0
 for i in range(a):
     f = input().split()
