@@ -39,6 +39,6 @@ zerotier-cli join abfd31bd47d62f91
 
 ## 使用Codeforces
 
-請填寫此表單後由管理員邀請加入Codeforces group，進入後方可盡情提交補題。
+[直接使用此連結加入即可](https://codeforces.com/contestInvitation/d9c3a5233298d94e271c77a540340f3679cd8cbb)
 
 祝各位補題順利。
