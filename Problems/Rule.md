@@ -32,7 +32,7 @@
 ### **資源**
 
  - 賽後我們將會在一天內**彰中資訊社群**公告本次題解、總成績。
- - 當天晚上10點將在彰中資訊社Discord直播***System test***過程。
+ - 當天晚上10點將在彰中資訊社Discord進行題解並直播***System test***過程。
  - 網址：
    - [彰中資訊社群](https://www.facebook.com/groups/chshcs/)
    - [本次專案](https://mysh212.github.io/CHSH-nhspc112-PRE/)
