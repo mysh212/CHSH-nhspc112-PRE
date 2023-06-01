@@ -1,1 +1,0 @@
-{"name": "Sudoku", "short_name": "sudoku", "contest": "T", "max_score": 100.0, "extra_headers": ["Subtask 1 (10)", "Subtask 2 (20)", "Subtask 3 (30)", "Subtask 4 (40)"], "order": 1, "score_mode": "max_subtask", "score_precision": 0}

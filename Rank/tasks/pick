@@ -1,1 +1,1 @@
-{"name": "Pick", "short_name": "pick", "contest": "T", "max_score": 100.0, "extra_headers": ["Subtask 1 (10)", "Subtask 2 (10)", "Subtask 3 (30)", "Subtask 4 (50)"], "order": 11, "score_mode": "max_subtask", "score_precision": 0}
+{"name": "\u9078\u7cd6\u679c", "short_name": "Pick", "contest": "CHSH_2dnhspc112", "max_score": 100.0, "extra_headers": ["Subtask 1 (10)", "Subtask 2 (10)", "Subtask 3 (30)", "Subtask 4 (50)"], "order": 3, "score_mode": "max_subtask", "score_precision": 0}
