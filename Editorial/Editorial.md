@@ -3,6 +3,7 @@
 ## **A.祭典** <font color = 'gray'>***At Most 3***</font>
 
 > 出題者 ***Derek0***
+> 首殺 **208 陳建霖**
 ### ***subtask1***: $35\\%$ $1 \leq W, N \times A_i \leq 10 ^9$
 三個迴圈搭配std::set即可
 ### ***subtask2***: $65\\%$ ***As statement***
@@ -13,6 +14,7 @@
 ## **B.翻譯家** <font color = 'gray'>***French***</font>
 
 > 出題者 ***Derek0***
+> 首殺 **219陳育德**
 ### ***task***: $100\\%$ ***As statement***
 依照題意模擬
 
@@ -21,6 +23,7 @@
 ## **C.村長** <font color = 'gray'>***King***</font>
 
 > 出題者 ***Derek0***
+> 首殺  **220 楊子毅**
 ### ***Subtask***
 
  ***subtask1***: $20\\%$: $1 \leq X, Y \leq 10^9$
@@ -40,6 +43,7 @@
 ## **D.選糖果** ***<font color='#AAAAAA'>Pick</font>***
 
 > 出題者 ***ysh***
+> 首殺 **219 吳赫宥**
 ### ***Subtask***
 
 ### ***subtask1***: $10\\%$ $1 \leq n,m \leq 10$
@@ -75,6 +79,7 @@
 ## **E.更多的糖果** ***<font color='#AAAAAA'>Pick-II</font>***
 
 > 出題者 ***ysh***
+> 首殺 **208 陳建霖**
 ### ***subtask1***: $10\\%$ $1 \leq n,m \leq 10$
 唬爛用，甚至 $O(n^5)$ 都會過。
 
@@ -159,6 +164,7 @@ $$
 ## **G.運算子** ***<font color='#AAAAAA'>Operator</font>***
 
 > 出題者 ***ysh***
+> 首殺 **219 陳育德**
 
 這邊定義 $True^n$ 代表 $n$ 個 $True$ 互相進行 ***XOR*** 運算。\
 $False^n$ 代表 $n$ 個 $False$ 互相進行 ***XOR*** 運算。\
